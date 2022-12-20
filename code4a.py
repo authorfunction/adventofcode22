@@ -52,9 +52,9 @@ def check_for_subsets(count, edge, row, pair, range1, range2):
 # MAIN LOOP
 for row, pair in enumerate(pairs[:]):
     range1 = range(pair[0][0], pair[0][1])
-    print(range1)
+    # print(range1)
     range2 = range(pair[1][0], pair[1][1])
-    print(range2)
+    # print(range2)
 
     count, edge, row = check_for_subsets(
         count, edge, row, pair, range1, range2)
